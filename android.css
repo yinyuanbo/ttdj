@@ -1,0 +1,111 @@
+.homeHeader1 {
+    position: relative;
+    height: 190px;
+    background: #3a3a3a;
+}
+
+.homeTitle{
+    top: 0px;
+}
+
+.fixedHomeTitle{
+    font-size: 15px;
+    text-align: center;
+    /*border-bottom: 1px solid #DFDEDE;*/
+    position: fixed;
+    letter-spacing: 1px;
+    top:0px;/*android:0,iphone:15*/
+    left:0px;
+    width: 100%;
+    z-index: 100;
+}
+
+.headerFooterBody{
+    top:46px;
+}
+
+.headerBody{
+    top:46px;
+}
+
+.header1{
+    top:46px;
+}
+
+.headerBody1{
+    top:78px;
+}
+
+.headerFooterBody1{
+    top:78px;
+}
+
+.myBankCardmainBj{
+    top:66px;
+}
+
+.homeTitlemyInfo{
+    padding-top: 0px;
+}
+
+.searchBar {
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    top: 5px;
+    bottom: 5px;
+    border-radius: 6px;
+    border: rgba(178, 183, 183, 0.45) 1px solid;
+}
+
+.searchText {
+    width: 100%;
+    height: 30px;
+    float: left;
+    text-indent: 45px;
+    font-size: 13px;
+    color: white;
+    line-height: 30px;
+    position: relative;
+    z-index: 10;
+    text-align: left;
+}
+
+.searchIcon {
+    height: 20px;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.searchBar3 {
+    position: absolute;
+    left: 8px;
+    right: 50px;
+    top: 5px;
+    bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #cdcdcd;
+}
+
+.searchIcon1 {
+    height: 16px;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.searchText1 {
+    width: 100%;
+    height: 30px;
+    float: left;
+    text-indent: 45px;
+    font-size: 13px;
+    color: #999;
+    line-height: 30px;
+    position: relative;
+    z-index: 10;
+    text-align: left;
+}

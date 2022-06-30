@@ -1,0 +1,56 @@
+#zhidingjihuaout{
+    vertical-align:middle;
+    text-align: center;
+    height: 88px;
+    width: 100%;
+}
+#zhidingjihua{
+    border-radius: 44px;
+    height: 88px;
+    width: 392px;
+    vertical-align:middle;
+    text-align: center;
+}
+
+
+#zhidingjihuadown{
+    width: 100%;
+    vertical-align:middle;
+    text-align: center;
+}
+
+.studyplantop2{
+    height: 42px;
+    left: 15px;
+}
+
+.studyplan2-main{
+    width: 345px;
+    left: 15px;
+}
+
+.studyplan2-msg{
+    height: 80px;width: 100%;margin-top: 8px;vertical-align:middle;
+}
+.studyplan2-tx{
+    height: 60px;left: 13px;float: left;
+}
+.studyplan2-xq{
+    height: 60px;margin-left: 10px;float: left;
+}
+.studyplan2-xqin{
+    height: 30px;
+}
+
+.studyplan2-sc{
+    color: #f2f2f2;
+    font-size: 15px;
+    height: 60px;
+    width:70px;
+    right: 15px;
+    float: right;
+}
+
+.studyplan2-scimg{
+    height: 15px;
+}

@@ -1,0 +1,650 @@
+/*更换头像*/
+#changePic .changeContent {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    left: 0;
+    right: 0;
+    background: white;
+    z-index: 100;
+}
+#changePic .popBlank{
+    bottom: 100px;
+}
+#changePic .choose{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    border-bottom: solid 1px #e3e3e3;
+}
+#changePic .cancel{
+    color: rgba(0, 0, 0, 0.4);
+    border-bottom: solid 0 gray;
+}
+/*更换性别*/
+#changeSex .changeContent {
+    position: absolute;
+    bottom: 0;
+    height: 150px;
+    left: 0;
+    right: 0;
+    background: white;
+    z-index: 100;
+}
+#changeSex .popBlank{
+    bottom: 150px;
+}
+#changeSex .choose{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    border-bottom: solid 1px #e3e3e3;
+}
+#changeSex .cancel{
+    color: rgba(0, 0, 0, 0.4);
+    border-bottom: solid 0 gray;
+}
+/*修改姓名输入框*/
+.inputName input{
+    font-size: 16px;
+    color: #333333;
+    line-height: 20px;
+    min-height: 52px;
+}
+/*修改个性签名输入框*/
+.inputSignature textarea{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: #333333;
+    padding-top: 10px;
+}
+/*修改信息之后的右侧保存按钮*/
+.next{
+    position: absolute;
+    right: 15px;
+    top:0;
+    font-size: 16px;
+}
+/*原电话号码，方便后台传值*/
+.phoneNumber{
+    position: absolute;
+    left: 65px;
+    top:0;
+    font-size: 16px;
+}
+/*验证码*/
+.checkCode input{
+    text-indent: 5px;
+    font-size: 16px;
+    color: #333333;
+    line-height: 20px;
+    min-height: 52px;
+}
+/*获取验证码*/
+.getCheckCode1{
+    color: red;
+    margin-right: 0;
+}
+.getCheckCode2{
+    color: red;
+    margin-right: 0;
+}
+.getCheckCode3{
+    color: red;
+    margin-right: 0;
+}
+/*新号码输入框*/
+.newTelInput{
+    text-indent: 5px;
+    font-size: 16px;
+    color: #333333;
+    line-height: 20px;
+    min-height: 48px;
+    width: 130px;
+}
+/*修改密码界面输入框位置调整*/
+#changePasswd .checkCode input{
+    text-indent: 26px;
+}
+#changePasswd .phoneNumber{
+    left: 84px;
+}
+#changePasswd .confirmPasswd input{
+    text-indent: 8px;
+}
+/*将顶部空去掉，背景改为白色,加在personalListBox后*/
+.cancelTop{
+    margin-top: 0;
+    height: 100%;
+}
+/*我关注的界面*/
+#myAttention .personalPic{
+    width: 52px;
+    top: 14px;
+}
+#myAttention .personalDetails{
+    padding: 8px 0 10px 65px;
+}
+/*关注我的界面*/
+#attentionMe .personalPic{
+    width: 52px;
+    top: 14px;
+}
+#attentionMe .personalDetails{
+    padding: 8px 0 10px 65px;
+}
+/*我的账户*/
+/*小标题*/
+#myAccount .myAccountTxt{
+    font-size: 14px;
+}
+#myAccount .banlanceTxt{
+    color: #b0b0b0;
+}
+#myAccount .myAccountBalance{
+    font-size: 52px;
+    margin-bottom: 18px;
+}
+/*按钮公共属性*/
+#myAccount .pay{
+    height: 300px;
+}
+#myAccount .payButton{
+    border: solid 1px red;
+    border-radius: 5px;
+    position: absolute;
+    width: 31%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color: red;
+    letter-spacing: 1px;
+    background-color: white;
+}
+/*按钮位置*/
+.payButton1{
+    top: 14%;
+    left: 0;
+}
+.payButton2{
+    top: 14%;
+    left: 34%;
+}
+.payButton3{
+    top: 14%;
+    left: 68%;
+}
+.payButton4{
+    top: 30%;
+    left: 0;
+}
+.payButton5{
+    top: 30%;
+    left: 34%;
+}
+.payButton6{
+    top: 30%;
+    left: 68%;
+}
+.payButton7{
+    background-color: red;
+    border-radius: 30px;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    top: 48%;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+/*明细界面*/
+/*列表调整*/
+#myAccountDetail .recharge{
+    width: 170px;
+    position: absolute;
+    left: 56px;
+}
+#myAccountDetail .personalDetails{
+    padding-top: 10px;
+    min-height: 36px;
+}
+#myAccountDetail .personalPic{
+    width: 40px;
+    top: 12px;
+}
+/*操作名*/
+#myAccountDetail .detailType{
+    font-size: 16px;
+}
+/*操作时间*/
+#myAccountDetail .detailTime{
+    font-size: 15px;
+    color: #bfbfbf;
+}
+/*金额*/
+#myAccountDetail .detailMoney{
+    float: right;
+    color: red;
+    font-size: 18px;
+    line-height: 36px;
+}
+/*已购买界面，类似我的账户明细*/
+/*列表调整*/
+#purchased .recharge{
+    width: 170px;
+    position: absolute;
+    left: 60px;
+}
+#purchased .personalDetails{
+    padding-top: 10px;
+    min-height: 65px;
+}
+#purchased .personalPic{
+    width: 50px;
+    height: 65px;
+    top: 10px;
+}
+/*操作名*/
+#purchased .detailType{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+/*操作时间*/
+#purchased .detailTime{
+    font-size: 14px;
+    color: #bfbfbf;
+    margin-top: 2px;
+}
+/*金额*/
+#purchased .detailMoney{
+    float: right;
+    color: red;
+    font-size: 16px;
+    line-height: 22px;
+}
+/*已购买详情*/
+#orderDetail .personalDetails{
+    padding: 20px 0 20px 0;
+}
+/*放图片的div*/
+#orderDetail .bookImg{
+    height: 150px;
+    width: 105px;
+    margin: auto;
+}
+#orderDetail .bookImg img{
+    width: 100%;
+    height: 100%;
+}
+/*书籍名字*/
+#orderDetail .bookName{
+    margin: 15px 0 10px 0;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+/*详情*/
+#orderDetail .personalListBox{
+    margin-top: 0;
+}
+#orderDetail .detailTxt{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 55px;
+    left: 0;
+    top: 285px;  /*元伯上需要285px  我的284px*/
+}
+/*价格等信息*/
+#orderDetail .outter{
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    left: 0;
+    font-size: 14px;
+    color: #bfbfbf;
+}
+#orderDetail .outter1{
+    top: 10px;
+    height: 40px;
+    font-size: 16px;
+    color: black;
+    line-height: 40px;
+}
+/*价格红色*/
+.outter1 .rightValue{
+    color: red;
+}
+#orderDetail .outter2{
+    top: 40px;
+}
+#orderDetail .outter3{
+    top: 64px;
+}
+#orderDetail .outter4{
+    top: 88px;
+}
+/*键和值*/
+#orderDetail .leftName{
+    float: left;
+    text-align: left;
+    line-height: 35px;
+    padding-left: 15px;
+}
+#orderDetail .rightValue{
+    float: right;
+    text-align: right;
+    line-height: 35px;
+    padding-right: 15px;
+}
+/*底部按钮*/
+#orderDetail .detailButtonDiv{
+    position: absolute;
+    width: 100%;
+    height: 55px;
+    bottom: 0;
+    left: 0;
+}
+#orderDetail .detailButton{
+    position: absolute;
+    width: 44%;
+    height: 35px;
+    border: solid 1px red;
+    border-radius: 30px;
+    text-align: center;
+    color: red;
+    line-height: 35px;
+    letter-spacing: 1px;
+    background-color: white;
+}
+#orderDetail .detailButton1{
+    left: 4%;
+    top: 16%;
+}
+#orderDetail .detailButton2{
+    right: 4%;
+    top: 16%;
+}
+/*帮助中心*/
+#help .personalDetails{
+    padding: 0;
+    font-size: 16px;
+    min-height: 50px;
+    line-height: 50px;
+}
+/*帮助中心详情*/
+#helpDetail .personalDetails{
+    padding: 0;
+}
+#helpDetail .title{
+    min-height: 60px;
+    font-size: 22px;
+    line-height: 60px;
+    font-family: 黑体;
+}
+#helpDetail .content{
+    padding-top: 15px;
+    font-size: 16px;
+}
+/*商城界面的*/
+#studyStore .homeNav li{
+    width: 33.33%;
+    padding: 0;
+    text-align: center;
+}
+.cancelLeft .homeNav ul li{
+    width: 50%;
+    padding: 0;
+    text-align: center;
+}
+.screen{
+    width: 100%;
+    height: 38px;
+    padding: 0 6%;
+}
+/*4个筛选条件*/
+#studyStore .screenDiv{
+    float: left;
+    height: 100%;
+    width: 22%;
+    text-align: center;
+    line-height: 38px;
+    font-size: 14px;
+    color: #bfbfbf;
+}
+.storeList{
+    padding: 0 10px;
+    background-color: #ffffff;
+}
+.storeList li{
+    padding-left: 94px;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dbdbdb;
+    height: 120px;
+}
+/*列表显示课件、书籍*/
+/*图片处理*/
+.storeListPic{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 85px;
+    height: 120px;
+}
+.storeListPic img{
+    width: 100%;
+    height: 100%;
+}
+/*设置下字体间距*/
+.storeList div{
+    letter-spacing: 1px;
+}
+/*作者*/
+.storeListAuth{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #dbdbdb;
+}
+/*价格和人数处理*/
+.priceAndBuy{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+.priceAndBuy .storeListPrice{
+    float: left;
+    color: red;
+}
+.priceAndBuy .storeListBuy{
+    float: left;
+    margin-left: 15px;
+    font-size: 12px;
+    color: #dbdbdb;
+    line-height: 21px;
+}
+/*课件、书籍详情的书本信息，简介和目录通用*/
+/*取消两边顶格*/
+.cancelLeft{
+    padding: 0;
+}
+.coursewareDetailsTop{
+    padding-left: 94px;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 120px;
+    margin: 0 15px;
+}
+/*课件详请中间空白*/
+.coursewareDetailsMid{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(242, 242, 242);
+}
+/*简介和目录滑动*/
+.courseIntro{
+    padding: 0 15px;
+    /*height: 500px;*/
+}
+.introTxt{
+    border-bottom: solid 1px rgb(242, 242, 242);
+    padding: 15px 0;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+/*购买*/
+.coursewareDetailsBot{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+}
+/*作者  出版社 出版时间*/
+.introDetail{
+    padding-top: 15px;
+}
+.introOutter{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+}
+.introOutter .leftName{
+    float: left;
+    width: 80px;
+    color: #c9c9c9;
+}
+.introOutter .rightValue{
+    float: left;
+}
+/*目录部分*/
+/*调整行高*/
+#courseCont li{
+    font-size: 14px;
+    height: 40px;
+    line-height: 45px;
+}
+/*购买按钮*/
+#storeBuy .popBlank{
+    bottom: 1000px;
+}
+#storeBuy .storeBuyChoose{
+    position: absolute;
+    bottom: 0;
+    height: 440px;
+    left: 0;
+    right: 0;
+    background: white;
+    z-index: 100;
+}
+/*购买弹窗第一部分*/
+#storeBuy .storeBuyTop{
+    width: 100%;
+    height: 50px;
+    border-bottom: solid 1px rgb(242, 242, 242);
+    line-height: 50px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+#storeBuy .cancelBuy{
+    text-align: center;
+    color: red;
+    font-size: 15px;
+    float: left;
+    width: 16%;
+}
+#storeBuy .buyTxt{
+    float: left;
+    padding-left: 25%;
+}
+#storeBuy .buyName{
+    text-align: center;
+    height: 50px;
+    line-height: 60px;
+}
+#storeBuy .buyPrice{
+    text-align: center;
+    height: 70px;
+    line-height: 50px;
+    font-size: 50px;
+    color: red;
+    border-bottom: solid 1px rgb(242, 242, 242);
+}
+/*外部框  用作两边留白*/
+#storeBuy .buyTypeOutter{
+    padding: 0 15px;
+}
+/*每一行的高度和上下居中*/
+#storeBuy .buyType{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: solid 1px rgb(242, 242, 242);
+    font-size: 18px;
+}
+/*放置图片*/
+#storeBuy .typeImg{
+    width: 8%;
+    float: left;
+}
+#storeBuy img{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+#storeBuy .typeTxt{
+    width: 32%;
+    float: left;
+    font-size: 18px;
+    margin-left: 4%;
+}
+#storeBuy .typeRight{
+    float: left;
+    font-size: 18px;
+}
+/*隐藏的钩*/
+#storeBuy .typeRight2{
+    width: 5%;
+    float: right;
+    padding-right: 2%;
+}
+/*立即支付*/
+#storeBuy .payFor{
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 40px;
+}
+#storeScroller{
+    position: absolute;
+    top:121px;
+    bottom: 50px;
+    right: 0;
+    left: 0;
+}
+#learnScroller{
+    position: absolute;
+    top:83px;
+    bottom: 50px;
+    right: 0;
+    left: 0;
+}
+
